@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Tour with Margot logo">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#17364a" />
+      <stop offset="100%" stop-color="#8d6a36" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#bg)" />
+  <circle cx="128" cy="128" r="88" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="4" />
+  <text x="128" y="118" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#f7efe1" letter-spacing="6">TOUR</text>
+  <text x="128" y="164" text-anchor="middle" font-family="Georgia, serif" font-size="78" fill="#ffffff" font-weight="700">MB</text>
+</svg>
