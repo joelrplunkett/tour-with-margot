@@ -573,28 +573,29 @@ h1 {
   margin-top: 0.1rem;
 }
 
-.social-icon-btn {
-  width: 54px;
-  height: 54px;
-  border-radius: 999px;
+.social-pill {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.78rem 0.95rem;
+  border-radius: 999px;
   background: rgba(255, 255, 255, 0.14);
   border: 1px solid rgba(255, 255, 255, 0.18);
   backdrop-filter: blur(10px);
+  font-weight: 900;
+  letter-spacing: 0.01em;
   transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
 }
 
-.social-icon-btn:hover {
+.social-pill:hover {
   transform: translateY(-1px);
   box-shadow: 0 12px 26px rgba(0, 0, 0, 0.18);
   background: rgba(255, 255, 255, 0.2);
 }
 
-.social-icon-btn svg {
-  width: 26px;
-  height: 26px;
+.social-pill svg {
+  width: 22px;
+  height: 22px;
   fill: rgba(255, 255, 255, 0.92);
 }
 
