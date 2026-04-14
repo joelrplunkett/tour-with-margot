@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tour with Margot</title>
-  <meta name="description" content="Margot Björck is a Travel Director leading guided journeys across Scandinavia, the UK and Italy." />
+  <title>Travel with Margot</title>
+  <meta
+    name="description"
+    content="Margot Björck is a Travel Director leading guided journeys across Scandinavia, Britain and Italy with a calm, clear and welcoming touring style."
+  />
   <link rel="stylesheet" href="assets/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,13 +19,16 @@
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
-      <div class="brand">Tour with Margot</div>
+      <a class="brand" href="index.html">Travel with Margot</a>
+
       <nav class="nav">
         <a href="#upcoming-tours">Upcoming Tours</a>
         <a href="#about">About</a>
+        <a href="#touring-feel">On Tour</a>
         <a href="#regions">Regions</a>
         <a href="#styles">Touring Styles</a>
         <a href="#before-tour">Before Your Tour</a>
+        <a href="join.html">Stay in Touch</a>
         <a href="#social">Social</a>
       </nav>
     </div>
@@ -31,29 +37,67 @@
   <main>
     <section class="hero-wrap">
       <div class="container">
-        <section class="hero hero-home" style="background: linear-gradient(90deg, rgba(16, 26, 34, 0.72) 0%, rgba(16, 26, 34, 0.42) 40%, rgba(16, 26, 34, 0.15) 70%), linear-gradient(180deg, rgba(16, 26, 34, 0.18), rgba(16, 26, 34, 0.55)), url(&#x27;https://images.unsplash.com/photo-1751703857389-b7d0cd1d5b54?auto=format&amp;fit=crop&amp;w=1800&amp;q=80&#x27;) center 58% / cover no-repeat;">
+        <section class="hero hero-home">
           <div class="hero-inner">
             <div class="hero-copy">
-              <div class="eyebrow">Guided journeys across Scandinavia, the UK and Italy</div>
-              <h1>Travel that feels organised, warm and easy to settle into.</h1>
-              <p class="hero-sub">This site is a practical place for guests to get a sense of Margot&#x27;s touring style, the regions she works across, and where to find useful guidance before departure.</p>
+              <div class="eyebrow">Guided journeys across Scandinavia, Britain and Italy</div>
+              <h1>Travel that feels warm, steady and thoughtfully led.</h1>
+              <p class="hero-sub">
+                Hi, I’m Margot. My goal on tour is simple: keep the trip organised and well paced, answer questions clearly, and help you relax into the journey from the very start.
+              </p>
 
               <div class="cta-row">
-                <a class="btn btn-primary" href="#about">About Margot</a><a class="btn btn-secondary" href="#before-tour">Before Your Tour</a>
+                <a class="btn btn-primary" href="#about">About Margot</a>
+                <a class="btn btn-secondary" href="#before-tour">Before Your Tour</a>
               </div>
             </div>
 
-            <aside class="hero-card">
-              <h3>Before we meet</h3>
-              <p>The aim is simple: make the lead-up to the tour feel clearer, calmer and a little more personal than a standard booking email alone.</p>
-              <ul class="hero-list">
-                <li>How Margot approaches touring day to day</li>
-                <li>The regions and tour styles she regularly works across</li>
-                <li>Where to find practical pre-departure guidance</li>
-              </ul>
+            <aside class="hero-aside" aria-label="From Margot">
+              <div class="hero-aside-head">
+                <img class="hero-portrait" src="images/margot-harbour-portrait.jpeg" alt="Margot portrait" loading="lazy" />
+                <div class="hero-aside-meta">
+                  <span class="hero-aside-kicker">From Margot</span>
+                  <strong>Welcome</strong>
+                  <span class="hero-aside-sub">A practical hub for guests, built to be warmer than a standard email.</span>
+                </div>
+              </div>
+
+              <div class="hero-aside-actions">
+                <a class="hero-chip" href="#upcoming-tours">Upcoming tours</a>
+                <a class="hero-chip" href="margot-bjorck.vcf">Save Margot to your contacts</a>
+                <a class="hero-chip" href="https://instagram.com/margot_traveldirector_ttc" target="_blank" rel="noopener noreferrer">Visit Instagram</a>
+              </div>
             </aside>
           </div>
         </section>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="photo-grid">
+      <div class="container">
+        <div class="section-intro">
+          <div class="kicker">Photo Notes</div>
+          <h2>A few glimpses from the road.</h2>
+          <p>Landscapes for atmosphere, plus a couple of real moments on tour.</p>
+        </div>
+
+        <div class="photo-spread" aria-label="Photo highlights">
+          <figure class="photo-spread-main">
+            <img src="images/scotland-glencoe-valley.jpeg" alt="Glencoe landscape" loading="lazy" />
+            <figcaption class="photo-label">Scotland</figcaption>
+          </figure>
+
+          <div class="photo-spread-stack" aria-label="On tour">
+            <figure class="photo-spread-tile">
+              <img src="images/margot-harbour-portrait.jpeg" alt="Margot by the harbour" loading="lazy" />
+              <figcaption class="photo-label">Margot</figcaption>
+            </figure>
+            <figure class="photo-spread-tile">
+              <img src="images/margot-edinburgh-castle-pipers.jpeg" alt="Margot on tour in Edinburgh" loading="lazy" />
+              <figcaption class="photo-label">On Tour</figcaption>
+            </figure>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -62,12 +106,51 @@
         <div class="section-intro">
           <div class="kicker">Upcoming Tours</div>
           <h2>Upcoming tours you may be joining.</h2>
-          <p>If you&#x27;re travelling on one of the departures below, you can open the relevant welcome page here. These pages can also be sent directly by email closer to departure.</p>
+          <p>
+            If you are travelling on one of the departures below, you can open Margot's tour guide for practical notes before you leave, along with the official Trafalgar page for the full itinerary and overview.
+          </p>
         </div>
 
         <div class="info-grid">
-          <a class="info-card" href="welcome/best-of-britain.html"><h3>Best of Britain</h3><p>A practical welcome page covering pre-departure notes, packing, weather, WhatsApp contact and useful guidance before the tour begins.</p><span class="subtle-link">Open welcome page -&gt;</span></a>
-          <div class="info-card"><h3>More departures coming soon</h3><p>Additional tour pages can be added here as upcoming departures are confirmed.</p></div>
+          <div class="info-card">
+            <h3>Best of Britain</h3>
+            <p>
+              11 days through England, Scotland and Wales, travelling from London to Cornwall, into Wales, Liverpool, the Lake District and Scotland's Highlands and cities, including time on the Isle of Skye.
+            </p>
+            <div class="card-links">
+              <a class="subtle-link" href="welcome/best-of-britain.html">Margot's tour guide -&gt;</a>
+              <a class="subtle-link" href="https://www.trafalgar.com/en-eu/tours/best-of-britain" target="_blank" rel="noopener noreferrer">Official Trafalgar site -&gt;</a>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <h3>More departures coming soon</h3>
+            <p>
+              Additional welcome pages can be added here as upcoming departures are confirmed.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="photo-spread photo-spread--reverse" aria-label="More photo highlights">
+          <div class="photo-spread-stack" aria-label="Scandinavia moments">
+            <figure class="photo-spread-tile">
+              <img src="images/norway-lofoten-harbour-reflection.jpeg" alt="Harbour reflection in Lofoten" loading="lazy" />
+              <figcaption class="photo-label">Lofoten</figcaption>
+            </figure>
+            <figure class="photo-spread-tile">
+              <img src="images/norway-northern-lights-fjord.jpeg" alt="Northern lights over water" loading="lazy" />
+              <figcaption class="photo-label">Northern Lights</figcaption>
+            </figure>
+          </div>
+
+          <figure class="photo-spread-main">
+            <img src="images/italy-amalfi-coast-view.jpeg" alt="Amalfi coast view" loading="lazy" />
+            <figcaption class="photo-label">Italy</figcaption>
+          </figure>
         </div>
       </div>
     </section>
@@ -76,22 +159,63 @@
       <div class="container narrow">
         <div class="section-intro">
           <div class="kicker">About Margot</div>
-          <h2>Steady, welcoming and focused on making travel feel easy.</h2>
+          <h2>Welcoming, organised and focused on making travel feel easy to settle into.</h2>
+          <p>
+            Margot's style is calm, clear and guest-focused. The goal is never to overwhelm people with information, but to make sure they feel comfortable, informed and able to enjoy where they are.
+          </p>
         </div>
 
-        <div class="guide-snapshot">
-          <div class="guide-photo-placeholder">
-            <div class="guide-photo-badge">Placeholder photo</div>
-            <div class="guide-photo-meta">
-              <strong>Margot portrait or candid tour image</strong>
-              <span>Swap this later for a real image once you have one you like.</span>
-            </div>
+        <div class="about-visual">
+          <figure class="about-figure">
+            <img src="images/margot-fjord-selfie.jpeg" alt="Margot with a fjord view" loading="lazy" />
+            <figcaption>
+              Calm, clear touring with a warm group rhythm.
+              <span>Margot works across Scandinavia, Britain and Italy.</span>
+            </figcaption>
+          </figure>
+
+          <div class="about-style">
+            <div class="about-style-kicker">Margot's style</div>
+            <h3>Clear guidance, warm delivery, calm day-to-day rhythm.</h3>
+            <p>
+              Helpful communication, no overload. Organised days, but never rigid. Space to enjoy places properly.
+            </p>
           </div>
         </div>
 
+        <div class="home-gallery" aria-label="Photo highlights">
+          <figure class="home-figure">
+            <img src="images/scotland-glencoe-valley.jpeg" alt="Glencoe landscape" loading="lazy" />
+            <figcaption><strong>Scotland</strong><span>Glencoe.</span></figcaption>
+          </figure>
+          <figure class="home-figure">
+            <img src="images/margot-edinburgh-castle-pipers.jpeg" alt="Margot on tour in Edinburgh" loading="lazy" />
+            <figcaption><strong>Margot in Edinburgh</strong><span>Making friends!</span></figcaption>
+          </figure>
+          <figure class="home-figure">
+            <img class="home-figure-img home-figure-img--amalfi" src="images/italy-amalfi-coast-view.jpeg" alt="Amalfi coastline view" loading="lazy" />
+            <figcaption><strong>Amalfi Coast</strong><span>What a view.</span></figcaption>
+          </figure>
+        </div>
+
         <div class="about-grid">
-          <div class="about-card"><p>Margot Björck is a Travel Director working across Scandinavia, the UK and Italy, with a style that aims to keep guests well-informed without making the tour feel over-explained.</p><p>The goal is simple: clear communication, calm organisation and helping people settle into the rhythm of the journey quickly.</p></div>
-          <div class="about-card"><p>This site gives guests a more useful starting point before departure, with the practical context that often helps the week before the tour feel less rushed.</p><p>It also creates a reusable base that can grow naturally as more departures, regions and welcome pages are added.</p></div>
+          <div class="about-card">
+            <p>
+              Margot Björck is a Travel Director working across Scandinavia, the British Isles and Italy, with a touring style built around clear communication, calm organisation and helping you feel in safe hands from the start.
+            </p>
+            <p>
+              Travelling with Margot should feel welcoming and easy to settle into, with the practical side handled well enough that you can focus on the experience itself.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <p>
+              This site is your first little point of contact before we meet, with tour welcome pages, practical notes and a glimpse of how Margot likes to run things on the road.
+            </p>
+            <p>
+              It has been shaped over time from what guests actually ask for, plus Margot's own experience, and it will keep evolving with more real tour photos and helpful updates.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -101,30 +225,90 @@
         <div class="section-intro">
           <div class="kicker">On Tour</div>
           <h2>What travelling together tends to feel like.</h2>
-          <p>Guided touring works best when it feels organised without being rigid, informative without becoming too much, and social without feeling forced.</p>
+          <p>
+            Guided touring works best when it feels organised without being rigid, informative without becoming too much, and friendly without ever feeling forced. That is very much the tone Margot tries to set.
+          </p>
         </div>
 
         <div class="info-grid">
-          <div class="info-card"><h3>Clarity without overload</h3><p>Each day is clearly explained so guests know what is happening without being buried in unnecessary detail.</p></div>
-          <div class="info-card"><h3>Calm when plans shift</h3><p>Travel changes from time to time. The focus stays on keeping the day smooth and everyone properly informed.</p></div>
-          <div class="info-card"><h3>Space to enjoy each place</h3><p>The aim is to create a steady rhythm that gives guests time to take in places properly rather than rushing through them.</p></div>
-          <div class="info-card"><h3>A warm group atmosphere</h3><p>The best tours usually feel relaxed, friendly and easy to settle into from the first few days.</p></div>
+          <div class="info-card">
+            <h3>Clarity without overload</h3>
+            <p>
+              Each day is explained clearly so guests know what matters, without being buried in too much information all at once.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <h3>Calm when plans shift</h3>
+            <p>
+              Travel changes from time to time. The focus stays on keeping things smooth, well communicated and easy to adapt to.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <h3>Space to enjoy each place</h3>
+            <p>
+              The aim is always to create enough structure for the trip to run well, while still leaving room to take in each destination properly.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <h3>A warm group atmosphere</h3>
+            <p>
+              The best tours usually feel relaxed, friendly and easy to settle into from the first few days onward.
+            </p>
+          </div>
         </div>
       </div>
     </section>
+
+	    <section class="section">
+	      <div class="container">
+	        <div class="photo-break" aria-label="Photo highlights">
+	          <div class="photo-placeholder photo-placeholder--filled photo-placeholder--landscape" role="img" aria-label="Landscape photo">
+	            <img class="photo-placeholder-img" src="images/norway-trollstigen-valley.jpeg" alt="Mountain valley landscape" loading="lazy" />
+	            <span class="photo-placeholder-tag">Landscape</span>
+	          </div>
+
+	          <div class="photo-placeholder photo-placeholder--filled photo-placeholder--portrait" role="img" aria-label="Portrait photo">
+	            <img class="photo-placeholder-img" src="images/margot-mountain-selfie.jpeg" alt="Margot on tour" loading="lazy" />
+	            <span class="photo-placeholder-tag">Portrait</span>
+	          </div>
+	        </div>
+	      </div>
+	    </section>
 
     <section class="section section-soft" id="regions">
       <div class="container">
         <div class="section-intro">
           <div class="kicker">Touring Regions</div>
           <h2>Where Margot regularly works.</h2>
-          <p>A clear regions section helps guests immediately understand Margot&#x27;s operating footprint and travel strengths.</p>
+          <p>
+            Margot's touring world is shaped by places with strong character, layered history and a real sense of atmosphere, from Nordic cities and coastlines to Britain and Italy.
+          </p>
         </div>
 
         <div class="regions-grid">
-          <div class="region-card"><h3>Scandinavia</h3><p>Journeys shaped by long summer light, strong design culture, coastal cities and landscapes that often feel both expansive and calm.</p></div>
-          <div class="region-card"><h3>UK</h3><p>Tours that balance layered history, everyday practicality and the kind of changing conditions that reward good pacing and clear communication.</p></div>
-          <div class="region-card"><h3>Italy</h3><p>A region where art, food, movement and local character all matter, and where strong day-to-day coordination makes a real difference.</p></div>
+          <div class="region-card">
+            <h3>Scandinavia</h3>
+            <p>
+              Long summer light, strong design culture, coastal cities and landscapes that often feel both expansive and calm.
+            </p>
+          </div>
+
+          <div class="region-card">
+            <h3>Britain</h3>
+            <p>
+              Journeys shaped by changing weather, layered history, varied regional identity and the kind of pacing that rewards good organisation.
+            </p>
+          </div>
+
+          <div class="region-card">
+            <h3>Italy</h3>
+            <p>
+              A place where food, art, movement and local rhythm all matter, and where steady coordination makes the experience feel effortless.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -134,56 +318,156 @@
         <div class="section-intro">
           <div class="kicker">Touring Styles</div>
           <h2>Different ways to travel across TTC brands.</h2>
-          <p>This section can stay optional, but it works well as a quick guide for guests who may not yet know the differences between brands.</p>
+          <p>
+            Margot mainly works within guided touring, where each brand has its own pace, guest mix and style of experience.
+          </p>
         </div>
 
         <div class="operators-grid">
-          <a class="operator-card" href="https://www.trafalgar.com/" target="_blank" rel="noopener noreferrer"><h3>Trafalgar</h3><p>A well-balanced guided touring style combining structured itineraries, local experiences and a comfortable group rhythm.</p><span class="subtle-link">Explore Trafalgar -&gt;</span></a>
+          <a class="operator-card" href="https://www.trafalgar.com/" target="_blank" rel="noopener noreferrer">
+            <h3>Trafalgar</h3>
+            <p>A balanced guided touring style combining strong itineraries, local experiences and a comfortable group rhythm.</p>
+            <span class="subtle-link">Explore Trafalgar -&gt;</span>
+          </a>
+
+          <a class="operator-card" href="https://www.insightvacations.com/" target="_blank" rel="noopener noreferrer">
+            <h3>Insight Vacations</h3>
+            <p>A more premium guided touring experience, generally with extra comfort, more space and a slower pace in key destinations.</p>
+            <span class="subtle-link">Explore Insight -&gt;</span>
+          </a>
+
+          <a class="operator-card" href="https://www.luxurygold.com/" target="_blank" rel="noopener noreferrer">
+            <h3>Luxury Gold</h3>
+            <p>A higher-end touring style focused on refined service, elevated stays and a more curated pace through each region.</p>
+            <span class="subtle-link">Explore Luxury Gold -&gt;</span>
+          </a>
         </div>
       </div>
     </section>
+
+	    <section class="section">
+	      <div class="container">
+	        <div class="photo-break photo-break--single" aria-label="Photo placeholder">
+	          <div class="photo-placeholder photo-placeholder--filled photo-placeholder--landscape" role="img" aria-label="Landscape photo">
+	            <img class="photo-placeholder-img" src="images/norway-turquoise-lake.jpeg" alt="Turquoise lake landscape" loading="lazy" />
+	            <span class="photo-placeholder-tag">Landscape</span>
+	          </div>
+	        </div>
+	      </div>
+	    </section>
 
     <section class="section section-soft" id="before-tour">
       <div class="container narrow">
         <div class="section-intro">
           <div class="kicker">Before Your Tour</div>
           <h2>What to expect before departure.</h2>
-          <p>If you&#x27;re travelling on an upcoming departure led by Margot, you&#x27;ll usually receive a practical welcome email before the tour begins.</p>
+          <p>
+            If you are travelling on an upcoming departure led by Margot, you will usually receive a practical welcome email before the tour begins along with a direct link to your tour page here.
+          </p>
         </div>
 
         <div class="info-grid">
-          <div class="info-card"><h3>Main point of reference</h3><p>Your booking documents and operator communications remain the main source for itinerary details and operational updates.</p></div>
-          <div class="info-card"><h3>Welcome email</h3><p>This includes practical notes relevant to the specific journey, along with useful reminders before departure.</p></div>
-          <div class="info-card"><h3>Additional guidance</h3><p>This site can also hold general travel notes and tour-specific preparation pages where useful.</p></div>
-          <div class="info-card"><h3>Simple purpose</h3><p>The aim is not to overload guests with information, just to make the days before departure feel clearer.</p></div>
+          <div class="info-card">
+            <h3>Main point of reference</h3>
+            <p>
+              Your booking documents and operator communications remain the main source for itinerary details and operational updates.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <h3>Tour welcome page</h3>
+            <p>
+              Tour-specific pages can hold practical notes, weather reminders, packing guidance, photo spaces and the kind of helpful pre-departure context guests actually tend to want.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <h3>Direct contact prep</h3>
+            <p>
+              You can also save Margot to your contacts here and connect on Instagram if that is useful before or after the trip.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <h3>Simple purpose</h3>
+            <p>
+              The aim is not to overload guests with information, just to make the days before departure feel clearer and easier.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="responsible-travel">
-      <div class="container narrow">
-        <div class="section-intro">
-          <div class="kicker">Responsible Travel</div>
-          <h2>Travel thoughtfully.</h2>
-          <p>The journeys Margot leads are shaped by a simple idea: travel well, respect local communities and move through places with care.</p>
-        </div>
+	    <section class="section" id="responsible-travel">
+	      <div class="container narrow">
+	        <div class="section-intro">
+	          <div class="kicker">Responsible Travel</div>
+	          <h2>Travel thoughtfully.</h2>
+	          <p>
+	            The journeys Margot leads are shaped by a simple idea: travel well, respect local communities and move through places with care.
+	          </p>
+	        </div>
 
-        <div class="info-grid">
-          <div class="info-card"><h3>What that looks like on tour</h3><p>In practice, that means being mindful of local customs, reducing unnecessary waste and remembering that small choices shape the places we visit.</p></div>
-          <a class="info-card treadright-link" href="https://www.treadright.org/" target="_blank" rel="noopener noreferrer"><h3>Supported across TTC</h3><p>These tours also connect naturally with responsible travel work across The Travel Corporation and the TreadRight Foundation.</p><span class="subtle-link">Learn more about TreadRight -&gt;</span></a>
+	        <div class="mtm-photo-row" aria-label="Make Travel Matter photo placeholders">
+	          <div class="photo-placeholder photo-placeholder--landscape" role="img" aria-label="Make Travel Matter landscape placeholder">
+	            <span class="photo-placeholder-tag">MTM</span>
+	            <span class="photo-placeholder-center">Landscape</span>
+	          </div>
+	          <div class="photo-placeholder photo-placeholder--landscape" role="img" aria-label="Make Travel Matter landscape placeholder">
+	            <span class="photo-placeholder-tag">MTM</span>
+	            <span class="photo-placeholder-center">People</span>
+	          </div>
+	          <div class="photo-placeholder photo-placeholder--portrait" role="img" aria-label="Make Travel Matter portrait placeholder">
+	            <span class="photo-placeholder-tag">MTM</span>
+	            <span class="photo-placeholder-center">Portrait</span>
+	          </div>
+	        </div>
+
+	        <div class="info-grid">
+	          <div class="info-card">
+	            <h3>What that looks like on tour</h3>
+	            <p>
+	              In practice, that means being mindful of local customs, reducing unnecessary waste and remembering that small choices shape the places we visit.
+            </p>
+          </div>
+
+          <a class="info-card treadright-link" href="https://www.treadright.org/" target="_blank" rel="noopener noreferrer">
+            <h3>Supported across TTC</h3>
+            <p>
+              These journeys also connect naturally with the wider responsible travel work across The Travel Corporation and the TreadRight Foundation.
+            </p>
+            <span class="subtle-link">Learn more about TreadRight -&gt;</span>
+          </a>
         </div>
       </div>
     </section>
 
     <section class="section section-soft" id="social">
       <div class="container narrow">
-        <div class="section-intro">
-          <div class="kicker">Social</div>
-          <h2>A little more from the road.</h2>
-        </div>
+        <div class="contact-social-bar" aria-label="Contact and social links">
+          <div class="contact-social-col">
+            <div class="contact-social-title">Contact</div>
+            <div class="contact-social-links">
+              <a class="contact-social-link" href="margot-bjorck.vcf">Save Margot to your contacts</a>
+              <a class="contact-social-link" href="join.html">Stay in touch</a>
+            </div>
+          </div>
 
-        <div class="social-grid">
-          <a class="social-card" href="https://instagram.com/margot_traveldirector_ttc" target="_blank" rel="noopener noreferrer"><h3>Instagram</h3><p>Travel moments, landscapes and snapshots from the road.</p><span class="subtle-link">Visit Instagram -&gt;</span></a>
+          <div class="contact-social-col contact-social-col--center">
+            <div class="contact-social-title">Follow</div>
+            <div class="contact-social-icons" aria-label="Social media">
+              <a class="social-icon-btn" href="https://instagram.com/margot_traveldirector_ttc" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4A5.8 5.8 0 0 1 16.2 22H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm8.4 2H7.8A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4Zm-4.2 3.2A4.8 4.8 0 1 1 7.2 12 4.8 4.8 0 0 1 12 7.2Zm0 2A2.8 2.8 0 1 0 14.8 12 2.8 2.8 0 0 0 12 9.2ZM17.6 6.6a1 1 0 1 1-1 1 1 1 0 0 1 1-1Z"/>
+                </svg>
+              </a>
+              <a class="social-icon-btn" href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M13.6 22v-8.1h2.7l.4-3.1h-3.1V8.7c0-.9.3-1.6 1.6-1.6h1.7V4.3a23 23 0 0 0-2.5-.1c-2.5 0-4.2 1.5-4.2 4.4v2.4H7.4v3.1h2.8V22h3.4Z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
