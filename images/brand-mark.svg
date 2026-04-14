@@ -4,9 +4,23 @@
       <stop offset="0%" stop-color="#17364a" />
       <stop offset="100%" stop-color="#8d6a36" />
     </linearGradient>
+    <radialGradient id="glow" cx="28%" cy="26%" r="76%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.20)" />
+      <stop offset="55%" stop-color="rgba(255,255,255,0.06)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+    </radialGradient>
   </defs>
+
   <rect width="256" height="256" rx="56" fill="url(#bg)" />
-  <circle cx="128" cy="128" r="88" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="4" />
-  <text x="128" y="118" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#f7efe1" letter-spacing="6">TOUR</text>
-  <text x="128" y="164" text-anchor="middle" font-family="Georgia, serif" font-size="78" fill="#ffffff" font-weight="700">MB</text>
+  <rect width="256" height="256" rx="56" fill="url(#glow)" />
+
+  <circle cx="128" cy="128" r="92" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="4" />
+  <circle cx="128" cy="128" r="76" fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="2" />
+
+  <!-- Favicon-first monogram: readable at 16–32px -->
+  <path
+    d="M72 182V80h28l28 52 28-52h28v102h-26v-56l-30 54-30-54v56H72Z"
+    fill="#ffffff"
+    opacity="0.96"
+  />
 </svg>
