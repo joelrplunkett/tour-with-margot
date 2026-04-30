@@ -3,6 +3,9 @@ VERSION:3.0
 FN:Margot Björck
 N:Margot Björck
 NOTE:Travel Director contact card generated from the template workspace.
+TEL;TYPE=CELL,VOICE;TYPE=pref:+46707352505
+TEL;TYPE=CELL,VOICE:+393928398570
+TEL;TYPE=CELL,VOICE:+447300421401
 URL:https://instagram.com/margot_traveldirector_ttc
 X-SOCIALPROFILE;TYPE=instagram:https://instagram.com/margot_traveldirector_ttc
 END:VCARD
